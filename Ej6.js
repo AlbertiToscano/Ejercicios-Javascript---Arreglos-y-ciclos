@@ -21,18 +21,5 @@ const ordenInverso = (array) => {
 }
 console.log(ordenInverso(NumberArray));
 
-///////////////////////////////////////////////////
-/*
-con "sort"
 
-const ordenInverso = (array) => {
-    for (let i = 0; i < array.length - 1; i++) {
-
-        if (array[i] > array[i + 1]) {
-            array.sort((a, b) => a - b);
-        }
-    }
-    return array;
-}
-console.log(ordenInverso(NumberArray)); */
 
