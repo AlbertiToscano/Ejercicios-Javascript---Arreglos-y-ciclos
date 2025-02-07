@@ -14,5 +14,10 @@ const duplicarValor = (arrayNumeros) => {
     console.log(arrayNumeros);
 }
 
-duplicarValor(array)
+duplicarValor(array);
  
+const duplicarConMap = (arrayNumeros) =>{
+    console.log(arrayNumeros.map((numero)=>numero*2));
+}
+
+duplicarConMap(array);

@@ -15,3 +15,17 @@ const sumAndMultiplication = (array) => {
 
 sumAndMultiplication(arrayNumbers);
 
+const reduceSumAndMul = (array)=>{
+    
+    let suma = array.reduce((valor1, valor2)=>{
+        return valor1+valor2;
+
+    });
+    let multiplicacion = array.reduce((valor1, valor2)=>{
+        return valor1*valor2;
+
+    });
+    console.log(`The sum is ${suma}. The product is ${multiplicacion}.`);
+};
+
+reduceSumAndMul(arrayNumbers);

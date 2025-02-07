@@ -10,3 +10,9 @@ for (let i = 0; i < student1Courses.length; i++) {
     }
     
 }
+
+let elementosComunes = (array1, array2) =>{
+    const clasesRepetidas =array1.filter(clase=>array2.includes(clase));
+    console.log(clasesRepetidas);
+}
+elementosComunes(student1Courses, student2Courses);
