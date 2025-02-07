@@ -7,7 +7,7 @@ function printOutString() {
 }
 
 printOutString();
-Complete the function to print out the string: This is a sentence.
+Complete the function to print out the string: This is a sentence .
 
  */
 
